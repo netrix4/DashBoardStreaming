@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 body{
-  background-color: #f2f2f2;;
+  /* background-color: #f2f2f2; */
+  background: linear-gradient(90deg, rgba(248,248,250,1) 5%, rgba(221,223,234,1) 100%);
   display: flex;              
   justify-content: center;       
   align-items: center;
   height: 100vh;                 
+  width: 100%;
   margin: 0;   
 }
 
@@ -16,6 +18,7 @@ body{
 }
 
 #idform{
+  background-color: #f2f2f2;
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.4) ;
     border-radius: 30px;
     border-style: solid;
@@ -50,14 +53,14 @@ body{
 #section-dos {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 900px;
   height: 170px;
 }
 
 .login-input{
     border-radius: 10px;
-    padding: 15px 0px;
+    padding: 0px 15px;
     height: 50px;
     color: black;
     font-style: italic;
@@ -107,7 +110,7 @@ body{
   font-family: 'Times New Roman',sans-serif;
   font-size: 30px; 
   text-align: center;
-  background-color: #cacedc;
+  background-color: #7568a8;  
   color: #f8f8fa; 
   line-height: 80px; 
   border-radius: 0px 0px 25px 0px; 
@@ -122,7 +125,7 @@ body{
   font-size: 30px; 
   margin-bottom: 3px; 
   text-align: center;
-  background-color: #7568a8;
+  background-color: #cacedc;
   color: #f8f8fa;
   line-height: 80px; 
   /* border-radius: 5px;  */
