@@ -104,7 +104,8 @@ body{
   background-color: #cacedc;
   color: #f8f8fa; 
   line-height: 80px; 
-  border-radius: 0px 0px 0px 25px; 
+  border-radius: 0px 0px 25px 0px; 
+
 }
 
 #login-button-two{
@@ -119,7 +120,7 @@ body{
   color: #f8f8fa;
   line-height: 80px; 
   /* border-radius: 5px;  */
-  border-radius: 0px 0px 25px 0px; 
+  border-radius: 0px 0px 0px 25px; 
 }
 
 
