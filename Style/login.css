@@ -28,16 +28,23 @@ body{
     justify-content: space-between;
     align-items: center;
   }
+
   /*JustifyCOntent = MainAxisAligment
     Align-Items =CrossAxisAligment*/
 #section-uno {
+
   display: flex;
-  flex-direction: column;
-  align-items:start;
-  justify-content: end;
+  flex-direction: row;
+  align-items:end;
+  justify-content: space-between;
   width: 900px;
   height: 250px;
+}
 
+#section-uno img{
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
 }
 
 #section-dos {
@@ -57,7 +64,7 @@ body{
     font-size: 20px;
     border: none;                
     border-bottom: 1px solid grey;
-  
+    background-color: #eeeef9ef;
 }
 
 .login-input::placeholder{
