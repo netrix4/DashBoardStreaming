@@ -91,21 +91,23 @@ body{
 
 #login-button-one{
   text-decoration: none;
-  width: 500px; 
-  height: 80px;
+  /* width: 500px; 
+  height: 80px; */
+  height: 100%;
+  width: 50%;
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px; 
   text-align: center;
   background-color: #cacedc;
   color: #f8f8fa; 
   line-height: 80px; 
-  border-radius: 5px; 
+  border-radius: 0px 0px 0px 25px; 
 }
 
 #login-button-two{
   text-decoration: none;
-  width: 500px; 
-  height: 80px;
+  height: 100%;
+  width: 50%;
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px; 
   margin-bottom: 3px; 
@@ -113,7 +115,8 @@ body{
   background-color: #7568a8;
   color: #f8f8fa;
   line-height: 80px; 
-  border-radius: 5px; 
+  /* border-radius: 5px;  */
+  border-radius: 0px 0px 25px 0px; 
 }
 
 
