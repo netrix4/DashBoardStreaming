@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 body{
-
+  background-color: #f2f2f2;;
   display: flex;              
   justify-content: center;       
   align-items: center;
@@ -9,7 +10,7 @@ body{
 
 #header2-login{
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', serif;
     font-weight: 400;
     font-style: italic;
 }
@@ -96,7 +97,7 @@ body{
   height: 80px; */
   height: 100%;
   width: 50%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman',sans-serif;
   font-size: 30px; 
   text-align: center;
   background-color: #cacedc;
