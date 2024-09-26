@@ -88,27 +88,32 @@ body{
     justify-content: space-around;
 }
 
-#login-div-buttons button{
-    border: none;
-    width: 500px;
-    height: 80px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    margin-bottom: 3px;
-}
 
 #login-button-one{
-    padding-left: 50px;
-    text-align: center;
-    background-color: #cacedc;
-    color: #f8f8fa;
+  text-decoration: none;
+  width: 500px; 
+  height: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px; 
+  text-align: center;
+  background-color: #cacedc;
+  color: #f8f8fa; 
+  line-height: 80px; 
+  border-radius: 5px; 
 }
 
 #login-button-two{
-    padding-right: 50px;
-    text-align: center;
-    color: #f8f8fa;
-    background-color: #7568a8;
+  text-decoration: none;
+  width: 500px; 
+  height: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px; 
+  margin-bottom: 3px; 
+  text-align: center;
+  background-color: #7568a8;
+  color: #f8f8fa;
+  line-height: 80px; 
+  border-radius: 5px; 
 }
 
 
