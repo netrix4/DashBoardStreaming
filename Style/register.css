@@ -56,6 +56,7 @@ body{
     font-size: 20px;
     border: none;                
     border-bottom: 1px solid grey;
+    background-color: #eeeef9ef;
 }
 .register-input::placeholder{
   padding-left: 10px;
