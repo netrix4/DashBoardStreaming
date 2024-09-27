@@ -1,41 +1,174 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="../../Style/home.css">
+    <link rel="stylesheet" href="/Style/dashboard/home.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
-    <body>
-        <main class="main">
-            <section class="menu">
-                <div class="logo">
-                    <img src="../../Assets/dashboard/logo.png" alt="">
-                </div>
-                <nav class="barra">
-                    <a href="./home.html"><span class="material-icons">home</span>Home </a>
-                    <a href="./form.html"><span class="material-icons">assignment</span> Form</a>
-                    <a href="./data.html"><span class="material-icons">data_usage</span>Data</a>
-                </nav>
+<body>
+    <main class="main">
+        <section class="menu">
+            <div class="logo">
+                <img src="/Assets/dashboard/logo.png" alt="">
+            </div>
+            <nav class="barra">
+                <a href="/View/dashboard/home.html"><span class="material-icons">home</span>Home</a>
+                <a href="/View/dashboard/form.html"><span class="material-icons">assignment</span>Form</a>
+                <a href="/View/dashboard/data.html"><span class="material-icons">data_usage</span>Data</a>
+            </nav>
+        </section>
+        <section class="container-all">
+            <section class="titulo">
+                <h1>Originals</h1>
             </section>
             <section class="carrusel">
-                <div class="imagen-carrusel">
-                    <div class="card-imagen">
-                        <img src="../../Assets/dashboard/stranger.jpg" alt="">
+                <div class="carrusel-container">
+                    <div class="carrusel-item">
+                        <div class="card-imagen">
+                            <img src="/Assets/dashboard/stranger.jpg" alt="Stranger Things">
+                        </div>
+                        <div class="card-info" id="stranger-things">
+                            <h2>Stranger Things</h2>
+                            <p>"Stranger Things" follows a group of friends in the 80s who investigate the disappearance of one of them and discover a girl with psychic powers and a parallel dimension filled with dangerous creatures.</p>
+                            <p>Genre: Mystery. Horror. Thriller.</p>
+                            <p>Cast: Winona Ryder, David Harbour, Millie Bobby Brown</p>
+                            <p>Year: 2016</p>
+                            <p>Rating: 
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star_half</span>
+                                <span class="material-icons star">star_border</span>
+                            </p>
+                            <div class="buttons">
+                                <button class="btn-play"><span class="material-icons">play_arrow</span>Play</button>
+                                <button class="btn-add"><span class="material-icons">add</span>Add to my list</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="info-carrusel">
-                    <div class="card-info">
-                        <h1>Stranger Things</h1>
-                        <p>"Stranger Things" sigue a un grupo de amigos en los años 80 que investigan
-                             la desaparición de uno de ellos y descubren una niña con poderes psíquicos y
-                            una dimensión paralela llena de criaturas peligrosas</p>
-                        <p>Genero: Misterio. Terror. Suspenso.</p>
-
+                    <div class="carrusel-item">
+                        <div class="card-imagen">
+                            <img src="/Assets/dashboard/leon.jpg" alt="Leon: The Professional">
+                        </div>
+                        <div class="card-info" id="leon">
+                            <h2>Leon: The Professional</h2>
+                            <p>A hitman becomes the protector of an orphaned girl after a brutal murder in her family.</p>
+                            <p>Genre: Action.</p>
+                            <p>Cast: Jean Reno, Natalie Portman, Gary Oldman</p>
+                            <p>Year: 1994</p>
+                            <p>Rating: 
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star_half</span>
+                                <span class="material-icons star">star_border</span>
+                            </p>
+                            <div class="buttons">
+                                <button class="btn-play"><span class="material-icons">play_arrow</span>Play</button>
+                                <button class="btn-add"><span class="material-icons">add</span>Add to my list</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carrusel-item">
+                        <div class="card-imagen">
+                            <img src="/Assets/dashboard/joker.jpg" alt="Joker">
+                        </div>
+                        <div class="card-info" id="joker">
+                            <h2>Joker</h2>
+                            <p>A failed comedian becomes a psychotic criminal who destabilizes Gotham City with his chaotic presence.</p>
+                            <p>Genre: Drama. Crime.</p>
+                            <p>Cast: Joaquin Phoenix, Robert De Niro, Zazie Beetz</p>
+                            <p>Year: 2019</p>
+                            <p>Rating: 
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star_border</span>
+                            </p>
+                            <div class="buttons">
+                                <button class="btn-play"><span class="material-icons">play_arrow</span>Play</button>
+                                <button class="btn-add"><span class="material-icons">add</span>Add to my list</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carrusel-item">
+                        <div class="card-imagen">
+                            <img src="/Assets/dashboard/walking.jpg" alt="The Walking Dead">
+                        </div>
+                        <div class="card-info" id="walking-dead">
+                            <h2>The Walking Dead</h2>
+                            <p>In a post-apocalyptic world filled with zombies, a group of survivors searches for safety while facing threats from both the undead and other humans.</p>
+                            <p>Genre: Horror. Drama. Action.</p>
+                            <p>Cast: Andrew Lincoln, Norman Reedus, Melissa McBride</p>
+                            <p>Year: 2010</p>
+                            <p>Rating: 
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star_half</span>
+                                <span class="material-icons star">star_border</span>
+                            </p>
+                            <div class="buttons">
+                                <button class="btn-play"><span class="material-icons">play_arrow</span>Play</button>
+                                <button class="btn-add"><span class="material-icons">add</span>Add to my list</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carrusel-item">
+                        <div class="card-imagen">
+                            <img src="/Assets/dashboard/hora.jpeg" alt="Adventure Time">
+                        </div>
+                        <div class="card-info" id="hora-aventura">
+                            <h2>Adventure Time</h2>
+                            <p>The adventures of Finn, a human boy, and Jake, his best friend and adoptive brother, a magical dog, in a post-apocalyptic world full of creatures and fantastic characters.</p>
+                            <p>Genre: Animation. Adventure. Comedy.</p>
+                            <p>Cast: Jeremy Shada, John DiMaggio, Hynden Walch</p>
+                            <p>Year: 2010</p>
+                            <p>Rating: 
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star_border</span>
+                            </p>
+                            <div class="buttons">
+                                <button class="btn-play"><span class="material-icons">play_arrow</span>Play</button>
+                                <button class="btn-add"><span class="material-icons">add</span>Add to my list</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carrusel-item">
+                        <div class="card-imagen">
+                            <img src="/Assets/dashboard/game.jpg" alt="Game of Thrones">
+                        </div>
+                        <div class="card-info" id="game-thrones">
+                            <h2>Game of Thrones</h2>
+                            <p>In a fantasy world filled with political intrigue and conflict, several noble families fight for control of the Iron Throne and the Seven Kingdoms.</p>
+                            <p>Genre: Fantasy. Drama. Adventure.</p>
+                            <p>Cast: Emilia Clarke, Kit Harington, Peter Dinklage</p>
+                            <p>Year: 2011</p>
+                            <p>Rating: 
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star</span>
+                                <span class="material-icons star">star_half</span>
+                                <span class="material-icons star">star_border</span>
+                            </p>
+                            <div class="buttons">
+                                <button class="btn-play"><span class="material-icons">play_arrow</span>Play</button>
+                                <button class="btn-add"><span class="material-icons">add</span>Add to my list</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-        </main>
-
-    </body>
+        </section>
+    </main>
+</body>
 </html>
+    
