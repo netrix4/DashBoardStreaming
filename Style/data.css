@@ -49,6 +49,10 @@ body {
     font-size: 18px;
     text-align: center;
 }
+.barra a:hover {
+    background-color: var(--hover-barra); 
+    cursor:pointer
+}
 
 .data-card {
     padding: 40px;
