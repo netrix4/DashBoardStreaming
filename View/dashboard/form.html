@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Form</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/Style/form.css"> 
 </head>
@@ -14,51 +15,50 @@
             </div>
             <nav class="barra">
                 <a href="/View/dashboard/home.html"><span class="material-icons">home</span>Home </a>
-                <a href="/View/dashboard/form.html"><span class="material-icons">assignment</span> Formulario </a>
+                <a href="/View/dashboard/form.html"><span class="material-icons">assignment</span>Form </a>
                 <a href="/View/dashboard/data.html"><span class="material-icons">data_usage</span>Data</a>
             </nav>
         </section>
         
         <section class="form-card">
-            <h2>Formulario</h2>
+            <h2>Form</h2>
             <form>
-                <label>Tu nombre:</label>
-                <input type="text" placeholder="Escribe algo">
+                <label>Your Name:</label>
+                <input type="text" placeholder="Enter your name">
 
-                <label>Genero de peliculas favorito</label>
-                <select name="genero">
-                    <option value="accion">Acción</option>
-                    <option value="comedia">Comedia</option>
+                <label>Your Favorite Movie Genre:</label>
+                <select name="genre">
+                    <option value="action">Action</option>
+                    <option value="comedy">Comedy</option>
                     <option value="drama">Drama</option>
-                    <option value="terror">Terror</option>
-                    <option value="aventura">Aventura</option>
-                    <option value="ciencia_ficcion">Ciencia Ficción</option>
-                    <option value="fantasia">Fantasía</option>
-                    <option value="animacion">Animación</option>
-                    <option value="documental">Documental</option>
+                    <option value="horror">Horror</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="science_fiction">Science Fiction</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="animation">Animation</option>
+                    <option value="documentary">Documentary</option>
                 </select>
 
-                <label>Tipo de peliculas preferido</label>
+                <label>Your Preferred Type of Movies:</label>
                 <select>
-                    <option value="" disabled selected>Selecciona un tipo</option>
-                    <option value="cine">Cine</option>
+                    <option value="" disabled selected>Select a type</option>
+                    <option value="cinema">Cinema</option>
                     <option value="tv">TV</option>
                     <option value="streaming">Streaming</option>
                 </select>
-            
 
-                <label>¿Con qué frecuencia ves películas?</label>
+                <label>How often do you watch movies?</label>
                 <select>
-                    <option value="" disabled selected>Selecciona tu plataforma de streaming</option>
-                    <option value="diaramente">Diaramente</option>
-                    <option value="semanalmente">Semanalmente</option>
-                    <option value="ocasionalmente">Ocasionalmente</option>
-                    <option value="none">Prefiero no responder</option>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="occasionally">Occasionally</option>
+                    <option value="none">Prefer not to answer</option>
                 </select>
 
-                <label>¿Qué plataforma de streaming sueles usar?</label>
+                <label>Which streaming platform do you usually use?</label>
                 <select>
-                    <option value="" disabled selected>Selecciona tu plataforma de streaming</option>
+                    <option value="" disabled selected>Select your streaming platform</option>
                     <option value="netflix">Netflix</option>
                     <option value="hulu">Hulu</option>
                     <option value="disney_plus">Disney+</option>
@@ -66,11 +66,11 @@
                     <option value="prime_video">Amazon Prime Video</option>
                     <option value="apple_tv">Apple TV+</option>
                     <option value="paramount_plus">Paramount+</option>
-                    <option value="other">Otra</option>
+                    <option value="other">Other</option>
                 </select>
-                <button class="btn-submit">Enviar</button>
+                
+                <button class="btn-submit">Submit</button>
             </form>
-            
         </section>
     </main>
 </body>
