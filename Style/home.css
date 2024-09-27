@@ -1,0 +1,120 @@
+:root {
+    --gris-claro: #f8f8fa;
+    --gris-mediano: #cacedc;
+    --gris-azulado: #dddfea;
+    --morado: #7568a8;
+    --azul-suave: #a3adc9;
+    --azul-celeste: #a0d4e1;
+    --rosa: #e0a8e1;
+    --hover-barra: #4b4275;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main  {
+    display: flex;
+    height: 100vh;
+}
+
+.menu {
+    background-color: var(--morado); 
+    width: 10vh;
+    height: 100vh; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 100%;       
+    height: auto;
+    object-fit: cover; 
+    display: block;   
+}
+
+.barra {
+    color: var(--morado);
+}
+
+.barra a {
+    display: flex; 
+    flex-direction: column;
+    color: var(--gris-azulado);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.barra a:hover {
+    background-color: var(--hover-barra); 
+    cursor:pointer
+}
+
+.carrusel {
+    display: flex;
+    background-color: var(--gris-azulado); 
+    width: 90vh;
+    height: 70vh;
+    border-radius: 5%;
+    margin: auto;
+}
+
+
+.imagen-carrusel { 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 45vh;
+}
+
+.card-imagen { 
+    background-color: white;
+    height: 60vh;
+    width: 80%;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.card-imagen img { 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-carrusel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 45vh;
+}
+
+.card-info { 
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    width: 80%;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3); 
+    background: linear-gradient(to bottom, var(--morado), rgba(0, 0, 0, 0.8));
+}
+
+.card-info h1 {
+    margin-top: 1;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: var(--gris-claro);
+}
+
+.card-info p { 
+    margin-top: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    color: var(--gris-claro);
+}
